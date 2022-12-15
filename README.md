@@ -5,7 +5,7 @@
 </picture>
 </p>
 
-[![Swift](https://img.shields.io/badge/Swift-5.3_5.4_5.5_5.6-orange?style=flat-square)](https://img.shields.io/badge/Swift-5.3_5.4_5.5_5.6-Orange?style=flat-square)
+[![Swift](https://img.shields.io/badge/Swift-5.1_5.3_5.4_5.5_5.6_5.7-orange?style=flat-square)](https://img.shields.io/badge/Swift-5.1_5.3_5.4_5.5_5.6_5.7-Orange?style=flat-square)
 [![Platform](https://img.shields.io/badge/Platforms-iOS%20%7C%20macOS%20%7C%20watchOS%20%7C%20tvOS%20%7C%20Linux-4E4E4E.svg?colorA=28a745)](#installation)
 [![Swift Package Manager](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange?style=flat-square)](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange?style=flat-square)
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/GliderLogger.svg?style=flat-square)](https://img.shields.io/cocoapods/v/GliderLogger.svg)
@@ -18,7 +18,7 @@ It's designed to be:
 - **PERFORMANT**: you can use Glider without the worry of impacting your app performances
 - **UNIVERSAL**: it supports 14+ transports to satisfy every need; you can create your transport too!
 
-See the [project's page on GitHub for more informations](),
+See the [project's page on GitHub for more informations](https://github.com/immobiliare/Glider).
 
 # Glider-Sentry
 
@@ -76,3 +76,10 @@ use_frameworks!
 
 pod 'GliderSentry'
 ```
+
+## Requirements
+
+Minimum requirements are:
+- Swift 5.1
+- iOS 11+, macOS 10.14+, tvOS 12.0+
+- Sentry SDK 7+
