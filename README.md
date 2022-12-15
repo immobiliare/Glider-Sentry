@@ -48,6 +48,12 @@ let logger = Log {
 }
 ```
 
+All the relevants infos set using Glider are also forwarded automatically to the Sentry SDK. It includes:
+- global Glider's `user` property set via `GliderSDK.shared.scope.user`
+- `environment` variable set on `GliderSentryTransport`'s instance
+- log message's `extra` dictionary
+- log message's `tags` dictionary
+
 # Install
 
 This package require the Core Library of Glider you [can found here](https://github.com/immobiliare/Glider).  
