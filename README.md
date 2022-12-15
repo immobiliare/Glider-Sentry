@@ -27,7 +27,8 @@ It uses the official [`sentry-cocoa`](https://github.com/getsentry/sentry-cocoa)
 
 # How Works
 
-It exposes `GliderSentryTransport` is used to forward the messages coming from `Glider` logging system to the [Sentry](https://github.com/getsentry/sentry-cocoa) SDK.  
+Once you have integrated Glider in your project you can install this dependency.  
+It exposes a new transport called `GliderSentryTransport`; it's used to forward log messages coming from `Glider` logging system to the [Sentry](https://github.com/getsentry/sentry-cocoa) SDK.  
 When you install this package, `sentry-cocoa` is a dependency.
 
 ```swift
